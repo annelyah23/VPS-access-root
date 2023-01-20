@@ -5,17 +5,17 @@
 
 # Cara-cara
 ### Masuk ke VPS anda
-•Update Vps Dulu
-```html
-apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
-```
-Lepas Update siap ,masukan
+## Masukan
 ```html
 sudo su
 ```
 Atau
 ```html
 sudo -i
+```
+## Update VPS
+```html
+apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
 # Masukan Command 
 ```html
