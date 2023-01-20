@@ -16,7 +16,5 @@ Ip address = $(curl -Ls http://ipinfo.io/ip)
 Username   = root
 Password   = $pwe
 ============================================"
-sleep 1
-echo ""
-echo 
-exit
+echo "";
+exit;
