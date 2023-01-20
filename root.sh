@@ -4,7 +4,10 @@
 wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/annelyah23/VPS-access-root/main/sshd_config;
 systemctl restart sshd;
 clear;
-printf "🅹🆂🅿🅷🅰🅽🆃🅾🅼
+printf "
+🅹🆂🅿🅷🅰🅽🆃🅾🅼
+"
+echo
 echo -e "Masukkan Password:";
 read -e pwe;
 usermod -p `perl -e "print crypt("$pwe","Q4")"` root;
