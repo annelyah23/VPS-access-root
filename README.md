@@ -24,6 +24,6 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ```
 ```
 sudo su
-wget https://raw.githubusercontent.com/anzclan/ovh-root/main/root && bash root
+wget https://raw.githubusercontent.com/annelyah23/VPS-access-root/main/root && bash root
 
 ```
