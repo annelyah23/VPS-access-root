@@ -1,10 +1,6 @@
 #!/bin/bash
 clear
 
-### - start export >----------------->>
-## ----------------->> Script By Dotycat
-## ----------------->> Visit our website wwww.dotycat.com
-
 export RED='\033[0;31m'
 export GRAY="\e[1;30m"
 export BLUE="\033[36m"
