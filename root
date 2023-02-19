@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@annelyah23 
-anzclan
-/
-ovh-root
-Public
-Fork your own copy of anzclan/ovh-root
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-ovh-root/root
-@anzclan
-anzclan Create root
-Latest commit 6fa42e2 last week
- History
- 1 contributor
-49 lines (44 sloc)  2.54 KB
-
 #!/bin/bash
 clear
 
@@ -55,15 +26,13 @@ export IP=$(curl -sS ifconfig.me)
 ### www.dotycat.com   <<--------------<
 ############# - end   <<--------------<
 clear
-echo -e " ${BLUE}┌────────────────────────────────────────────────────┐${NC}"
-echo -e " ${BLUE}│${NC}${RED}        ___   ___ _______   _____   _ _____         ${NC}${BLUE}│${NC}"
-echo -e " ${BLUE}│${NC}${RED}       |   \ / _ \_   _\ \ / / __| /_\_   _/        ${NC}${BLUE}│${NC}"
-echo -e " ${BLUE}│${NC}${RED}       | |) | (_) || |  \ V / (__ / _ \| |          ${NC}${BLUE}│${NC}"
-echo -e " ${BLUE}│${NC}${RED}       |___/ \___/ |_|   |_| \___/_/ \_\_|          ${NC}${BLUE}│${NC}"
-echo -e " ${BLUE}│${NC}                                                    ${BLUE}│${NC}"
-echo -e " ${BLUE}│${NC}                  WWW.DOTYCAT.COM                   ${BLUE}│${NC}"
-echo -e " ${BLUE}│${NC}       TELEGRAM CH ${RED}@dotycat${NC} ADMIN ${RED}@anzclan${NC}          ${BLUE}│${NC}"
-echo -e " ${BLUE}└────────────────────────────────────────────────────┘${NC}"
+echo -e "\033[0;36m╔======================================================╗${NC}"  
+echo -e "\033[0;36m|${NC}\033[0;33m${bold}     _    ${NC}\033[0;34m${bold} ____ ${NC}${bold} _               ${NC}${bold}  _                 ${NC} \033[0;36m${bold}|${NC}" 
+echo -e "\033[0;36m|${NC}\033[0;33m${bold}    | |___${NC}\033[0;34m${bold}|  _  ${NC}${bold}| |__ ${NC}\033[0;31m${bold}  __ _${NC}${bold} _ __ | |_${NC}\033[0;31m${bold} ___ ${NC}${bold} _ __ ___  ${NC}\033[0;36m${bold}|${NC}"
+echo -e "\033[0;36m|${NC}\033[0;33m${bold} _  | / __${NC}\033[0;34m${bold}| |_) ${NC}${bold}|  _ |${NC}\033[0;31m${bold} / _  ${NC}${bold}|  _ \| __${NC}\033[0;31m${bold}/ _  ${NC}${bold}|  _   _ \ ${NC}\033[0;36m${bold}|${NC}"
+echo -e "\033[0;36m|${NC}\033[0;33m${bold}| |_| \__ ${NC}\033[0;34m${bold}\  __/${NC}${bold}| | | ${NC}\033[0;31m${bold}| (_| ${NC}${bold}| | | | ||${NC}\033[0;31m${bold} (_) ${NC}${bold}| | | | | |${NC}\033[0;36m${bold}|${NC}"
+echo -e "\033[0;36m|${NC}\033[0;33m${bold} \___/|___${NC}\033[0;34m${bold}/_|   ${NC}${bold}|_| |_${NC}\033[0;31m${bold}|\__,_${NC}${bold}|_| |_|\__${NC}\033[0;31m${bold}\___/${NC}${bold}|_| |_| |_|${NC}\033[0;36m${bold}|${NC}"
+echo -e "\033[0;36m╚======================================================╝${NC}"
 echo -e " ${BLUE}•────────────────────────────────────────────────────•${NC}"
 sudo passwd root
 sudo apt install curl -y
@@ -76,18 +45,3 @@ echo -e "$BLUE•─────────────────────
 echo -e ""
 read -n 1 -s -r -p "  Press any key to reboot"
 reboot
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-ovh-root/root at main · anzclan/ovh-root
