@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 
 export RED='\033[0;31m'
 export GRAY="\e[1;30m"
