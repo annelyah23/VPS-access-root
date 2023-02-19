@@ -19,6 +19,6 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
 # Masukan Command 
 ```
-wget https://raw.githubusercontent.com/annelyah23/VPS-access-root/main/vps-root && bash vps-root
+wget https://raw.githubusercontent.com/annelyah23/root/main/vps-root && bash root
 
 ```
