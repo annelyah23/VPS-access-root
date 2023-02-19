@@ -1,10 +1,6 @@
 #!/bin/bash
 clear
 
-### - start export >----------------->>
-## ----------------->> Script By Dotycat
-## ----------------->> Visit our website wwww.dotycat.com
-
 export RED='\033[0;31m'
 export GRAY="\e[1;30m"
 export BLUE="\033[36m"
@@ -22,9 +18,6 @@ export RECEIVE="[${YELLOW} RECEIVE ${NC}]";
 
 export IP=$(curl -sS ifconfig.me)
 
-### Visit our website << -------------<
-### www.dotycat.com   <<--------------<
-############# - end   <<--------------<
 clear
 echo -e "\033[0;36m╔======================================================╗${NC}"  
 echo -e "\033[0;36m|${NC}\033[0;33m${bold}     _    ${NC}\033[0;34m${bold} ____ ${NC}${bold} _               ${NC}${bold}  _                 ${NC} \033[0;36m${bold}|${NC}" 
